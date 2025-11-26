@@ -1,0 +1,52 @@
+# Python cache & temporary files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.sqlite-journal
+*.log
+
+# Virtual environment
+venv/
+env/
+ENV/
+
+# Environment secrets (IMPORTANT: Never commit this!)
+.env
+.env.local
+.env.*.local
+
+# SQLite database file (optional — if you only want schema, not data)
+testdb.sqlite
+*.db
+*.sqlite
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Mac / Linux system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+desktop.ini
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pytest
+.pytest_cache/
+.coverage
+htmlcov/
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+.policy_data.csv
+HDFC_Policy_Documents
